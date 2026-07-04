@@ -13,7 +13,7 @@ Raw invoice-level transaction data was cleaned, feature-engineered, and transfor
 
 **Tech stack:** Python · Pandas · Streamlit · Plotly
 
-**Dataset:** [Kaggle — Customer Shopping Dataset](https://www.kaggle.com/datasets/mehmettahiraslan/customer-shopping-dataset) (Istanbul retail transactions)
+**Dataset:** [Kaggle — Customer Shopping Dataset](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset) (Istanbul retail transactions)
 
 ---
 
