@@ -2,9 +2,8 @@
 
 An interactive Streamlit dashboard analyzing 99,457 retail transactions across 10 shopping malls in Istanbul. The dashboard surfaces revenue trends, category performance, customer demographics, and payment behavior through a fully filterable interface.
 
-**[🔗 Live Demo](#)** ← add your Streamlit Cloud URL here
+**[🔗 Live Demo](https://retail-sales-analysis-by-rabah.streamlit.app/)**
 
-![Dashboard Screenshot](screenshots/dashboard.png)
 
 ---
 
@@ -64,30 +63,15 @@ Customers aged **36–45** generate the most revenue of any age bracket ($50.2M)
 ## 🚀 Run Locally
 
 ```bash
-git clone https://github.com/<your-username>/retail-sales-analysis.git
+git clone https://github.com/Rabah0data/retail-sales-analysis.git
 cd retail-sales-analysis/dashboard
 pip install -r requirements.txt
-streamlit run app_simple.py
+streamlit run dashboard.py
 ```
 
-Make sure `customer_shopping_data.csv` is in the same folder as `app_simple.py`.
+Make sure `customer_shopping_data.csv` is in the same folder as `dashboard.py`.
 
----
 
-## 🌐 Deployment
-
-Hosted on [Streamlit Community Cloud](https://share.streamlit.io). To redeploy:
-1. Push this repo to GitHub
-2. Connect it at share.streamlit.io
-3. Set the entry point to `dashboard/app_simple.py`
-
----
-
-## 🔮 Next Steps
-
-- Segment customers by recency, frequency, and monetary value (RFM analysis)
-- Build a simple forecast model for next month's revenue
-- Add a geographic breakdown by shopping mall
 - A/B test hypothesis: does targeted winter promotion for the 35–45 female segment lift Clothing category revenue further?
 
 ---
